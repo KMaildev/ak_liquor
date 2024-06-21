@@ -2,7 +2,7 @@
     style="box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;">
     <div class="mobile-nav">
         <a href="{{ route('home') }}" class="logo">
-            <img src="{{ asset('assets/img/giano-logo.png') }}" alt="Giano Logo">
+            <img src="{{ asset('data/logo.jpg') }}" alt="Giano Logo">
         </a>
     </div>
 
@@ -10,8 +10,9 @@
     <div class="main-nav giano-nav-two">
         <nav class="navbar navbar-expand-md navbar-light">
             <div class="container">
-                <a class="navbar-brand" href="{{ route('home') }}">
-                    <img src="{{ asset('assets/img/giano-logo.png') }}" alt="Giano Logo">
+                {{-- navbar-brand --}}
+                <a class="" href="{{ route('home') }}">
+                    <img style="width: 110px;" src="{{ asset('data/logo.jpg') }}" alt="Giano Logo">
                 </a>
 
                 <div class="collapse navbar-collapse mean-menu" id="navbarSupportedContent">

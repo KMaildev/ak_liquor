@@ -29,7 +29,7 @@
     <link rel="stylesheet" href="{{ asset('assets/css/responsive.css') }}">
 
     <!-- Favicon -->
-    <link rel="icon" type="image/png" href="{{ asset('assets/img/favicon.png') }}">
+    <link rel="icon" type="image/png" href="{{ asset('data/logo.jpg') }}">
     <!-- Title -->
     <title>
         Liquor store - @yield('title')
